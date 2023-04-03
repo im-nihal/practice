@@ -13,6 +13,5 @@ x = x + y
 y = x - y
 x = x - y
 
-
 print("\nThe Value of x after swapping: {}".format(x))
 print("The Value of y after swapping: {}".format(y))
