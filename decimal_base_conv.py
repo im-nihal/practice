@@ -1,8 +1,6 @@
-import sys
-
 while True:
     print('-------------------Options-------------------')
-    choice = ['1. Decimal To Binary', '2. Decimal To Octal', '3. Decimal To Hex', '4. Exit/Quit']
+    choice = ['1. Decimal To Binary', '2. Decimal To Octal', '3. Decimal To Hex']
     print()
     for i in choice:
         print(i)
@@ -82,11 +80,10 @@ while True:
                 print('Please Do Not Enter Alphanumeric Characters.')
                 print('-'*45)
                 
-    elif usr_input == 4:
-        print('Thank You For Using Our Service.')
-        sys.exit()
 
     print('='*45)
     repeat = input("Do you want to repeat again? (y/n): ")
     if repeat.lower() == "n":
+        print('='*40)
+        print('Thank You For Using Our Service.')
         break
