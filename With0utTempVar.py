@@ -1,4 +1,4 @@
-#swapping logic  without using Temp/third Variable
+#swapping logic without using Temp/third Variable
 
 
 #taking input from user
