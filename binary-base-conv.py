@@ -99,7 +99,7 @@ while True:
                 break
             
             except ValueError as e:
-                print(e, '\nDo Not Enter AlphaNumeric Characters.  Please Try Again!')
+                print(e, '\nDo Not Enter AlphaNumeric Characters. Please Try Again!')
                 print('-'*45)
 
     print('='*45)
