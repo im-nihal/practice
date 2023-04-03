@@ -62,7 +62,7 @@ while True:
         
     elif _input == 3:
         print('-'*45)
-        print(' ------ Binary To Octal Conversion -------')
+        print(' ------ Binary To HexaDec Conversion -------')
         print('-'*45)
         while True:
             try:
