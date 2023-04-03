@@ -1,12 +1,12 @@
-#swapping logic with Multiplication & Division
-#This Logic works only for integer values
+# swapping logic with Multiplication & Division
+# This Logic works only for integer values
 
-#taking input from user
+# taking input from user
 x = int(input("Enter Your Desired Number: "))
 y = int(input("Enter Your Desired Number: "))
 print("_____________________________________________")
 
-#number entered by user
+# number entered by user
 print("\nThe Value of x before Swapping: {}".format(x))
 print("The Value of y before Swapping: {}".format(y))
 
